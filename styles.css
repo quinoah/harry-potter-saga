@@ -39,6 +39,23 @@ main {
     padding: 2rem;
 }
 
+.header-image {
+    max-width: 200px;
+    margin: 1rem auto;
+    display: block;
+}
+
+.book-cover, .character-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.book-item, .character-item {
+    text-align: center;
+}
+
 .timeline-container, .book-grid, .character-grid {
     display: grid;
     gap: 1rem;
